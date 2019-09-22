@@ -13,7 +13,7 @@ $alpha = [a-zA-Z]
 
 tokens :-
   $white+                             ;
-  "*"                                   { (\s -> Times) }
+  "*"                                 { (\s -> Times) }
   "+"                                 { (\s -> Plus) }
   "-"                                 { (\s -> Minus) }
   "/"                                 { (\s -> Divide) }
