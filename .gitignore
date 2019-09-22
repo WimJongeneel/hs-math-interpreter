@@ -1,5 +1,4 @@
+Lexer/*
 
-!language/lexer.x
-!language/parser.h
-
-language
+!Lexer/Lexer.x
+!Lexer/Tokens.hs
