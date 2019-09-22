@@ -2,3 +2,5 @@ Lexer/*
 
 !Lexer/Lexer.x
 !Lexer/Tokens.hs
+
+build/
