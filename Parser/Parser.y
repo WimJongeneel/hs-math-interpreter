@@ -27,7 +27,7 @@ AST : AST plus AST        { EPlus $1 $3 }
   | AST minus AST         { EMinus $1 $3 }
   | AST times AST         { ETimes $1 $3 }
   | AST divide AST        { EDivide $1 $3 }
-  | lp AST rp             { Nested $2 }
+  | lp AST rp             { ENested $2 }
   | int                   { EInt $1 }
 
 {
