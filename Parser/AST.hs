@@ -1,11 +1,11 @@
 module Parser.AST where
 
-data Expresion = EPlus Expresion Expresion
-  | EMinus Expresion Expresion
-  | ETimes Expresion Expresion
-  | EDivide Expresion Expresion
+data Expression = EPlus Expression Expression
+  | EMinus Expression Expression
+  | ETimes Expression Expression
+  | EDivide Expression Expression
   | EInt Int
-  | Nested Expresion
+  | Nested Expression
   deriving (Eq, Show)
 
-data AST = Expresion deriving (Eq, Show)
+data AST = Expression deriving (Eq, Show)
