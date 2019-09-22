@@ -6,7 +6,7 @@ import Runtime.RunExpression
 
 main::IO ()
 main = do
-  let tokens = alexScanTokens "1+1"
+  let tokens = alexScanTokens "2*3+1"
   print tokens
   let ast = parse tokens
   print ast
